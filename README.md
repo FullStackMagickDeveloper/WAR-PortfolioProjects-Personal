@@ -8,9 +8,6 @@
 
 ### [_W.A.R->PortifolioProjects-(Site-Gamer)_](https://fullstackmagickdeveloper.github.io/WAR-PortfolioProjects/Portfolio-HTML-Gamer.html)
 
-### [_W.A.R->PortifolioProjects-(Site-Structure)_](https://fullstackmagickdeveloper.github.io/WAR-PortfolioProjects/ESTRUTURA-PAGINA-HTML5-SEMANTICA-COMPLETA.html)
-
-### [_W.A.R->PortifolioProjects-(Site-Structure-Risca)_](https://fullstackmagickdeveloper.github.io/WAR-PortfolioProjects/ESTRUTURA-PAGINA-HTML5-SEMANTICA-COMPLETA-RISCA.html)
 
  ### Estudando as Principais Tecnologias ->
 
