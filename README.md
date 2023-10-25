@@ -7,7 +7,6 @@
 
 ### [_W.A.R->PortifolioProjects-(Site-Gamer)_](https://fullstackmagickdeveloper.github.io/WAR-PortfolioProjects/Portfolio-HTML-Gamer.html)
 
-
  ### Estudando as Principais Tecnologias ->
 
  *HTML5
