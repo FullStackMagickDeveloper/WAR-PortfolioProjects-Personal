@@ -15,18 +15,29 @@ charset="UTF-8">
 <!-----------------------[TITULO-PAGINA]----------------------->
 <title> [W.A.R]->(Site-Gamer) </title>
 <!------------------------------------------------------------->
-  <link rel="icon" type="image/x-icon" href="C:\Users\evald\OneDrive\Área de Trabalho\Wagner\ALLFILES-EDIT-UPDATE (14-10-2023)\CURSO-HTML5-DIO\UmbrellaLogo.ico">
+  <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/54/5f/86/545f8653fd458c2c38ea6b8c287acfd3.jpg">
 <!------------------------------------------------------------->
 <!---------------------[LINK-CSS-INTERNO]---------------------->
 <style type="text/css"> 
 
 body{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 background-image:url("https://getwallpapers.com/wallpaper/full/e/3/d/1084955-resident-evil-wallpaper-1920x1200-for-pc.jpg");
+margin-bottom: 3px;
 width: auto;
 height: auto;
 overflow-x: auto;
 overflow-y: auto;
-}
+  font-family: 'Serif';
+  font-style: italic;
+  font-variant: small-caps;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+  padding: 2px;
+  Color: red;
+  }
 
 
 /*--------------------------[CSS-FONTS]-------------------------*/
@@ -60,7 +71,7 @@ overflow-y: auto;
 
 .Header{
 display:flex;
-justify-content: space-around;
+justify-content: space-between;
 flex-wrap: wrap;
 align-item: flex-end;
 background-image:url("https://getwallpapers.com/wallpaper/full/e/3/d/1084955-resident-evil-wallpaper-1920x1200-for-pc.jpg");
@@ -68,21 +79,58 @@ border: solid 2px #FF0000;
 border-radius: 10px;
 max-width: 1400px;
 min-width: 250px;
-min-height: 200px;
+max-height: 350px;
+min-height: 250px;
+width: auto;
 height: auto;
+overflow-y: auto;
 margin-bottom: 3px;
-padding-bottom: 8px;
 }
 
 .Login{
-min-width: 200px;
-height: auto;
+margin-top: 15px;
+border-radius: 40px;
+min-width: 100px;
 margin-left: 5px;
 }
 
+input{
+border: solid 1px #FF0000;
+border-radius: 5px;
+}
+
+button{
+background-color: red;
+border: solid 2px darkred;
+border-radius: 10px;
+font-weight: bold;
+}
+
+
 .Cadastre-se{
-max-width: 50px;
-min-width: 50px;
+background-color: red;
+border: solid 2px darkred;
+border-radius: 16px;
+margin-bottom: 5px;
+padding: 5px;
+width: 115px;
+}
+
+.Cadastre-se a{
+-webkit-text-stroke: 0.2px black;
+  }
+
+fieldset{
+border-color: red;
+font-weight: bold;
+}
+
+.ContainerLogin{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 15px;
 }
 
 .Nav{
@@ -92,11 +140,13 @@ border: solid 2px #FF0000;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
-margin-bottom: 3px;
 max-width: 1400px;
-min-width: 200px;
-height: auto;
-padding: 7px;
+min-width: 250px;
+max-height: 50px;
+min-height: 50px;
+overflow-y: auto;
+margin-bottom: 3px;
+padding: 3px;
 }
 
 
@@ -104,27 +154,25 @@ padding: 7px;
 .ContainerAsideMain{
 display:flex;
 flex-wrap: wrap;
-max-width: 1400px;
-min-width: 200px;
-max-height: auto;
-min-height: 500px;
+width: auto;
+height: auto;
 }
 
 
 .Aside{
 display: flex;
 flex-direction: column;
+flex-wrap: nowrap;
 align-content: center;
 background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F236x%2F33%2Fec%2F74%2F33ec7420d3fd033abaf53a7a92212346.jpg%3Fnii%3Dt&f=1&nofb=1&ipt=28fd4d94b873e9ee35c8181ac61a7aeb6a6dc210fde315e9aeb24c57c951c464&ipo=images");
-overflow-x: hidden; 
 overflow-y: auto;
+overflow-x: hidden;
 border: solid 2px #FF0000;
 border-radius: 10px;
 margin-bottom: 3px;
-max-width: 190px;
-min-width: 190px;
-max-height: 700px;
-min-height: 300px;
+width: 170px;
+min-height: 200px;
+max-height: 800px;
 }
 
 
@@ -134,8 +182,8 @@ margin-left: 20px;
 
 
 .Aside a img{
-width: 150px;
-height: 130px;
+width: 120px;
+height: 100px;
 }
 
 
@@ -153,15 +201,15 @@ height: 130px;
 
 .Main{
 display: flex;
-flex-wrap: wrap;
 flex-direction: column;
 background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fresidentevil.com.br%2Fwp-content%2Fuploads%2F2019%2F02%2FWallpaper_03.png&f=1&nofb=1&ipt=9264b0df913a1deb5df51b44b83f95961e982db0f26e10550a8415e3d2f54056&ipo=images"); /*Tamanho (474 × 272)*/
 border: solid 2px #FF0000;
 border-radius: 10px;
 margin-bottom: 3px;
-max-width: 1150px;
-min-width: 200px;
-height: auto;
+max-width: 1140px;
+min-width: 250px;
+height: 800px;
+overflow-y: auto;
 margin-left: 4px;
 }
 
@@ -203,6 +251,7 @@ margin-bottom:5px;
 .Article2{
 background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fresidentevil%2Fimages%2Fd%2Fd0%2FSpencer_estate_(Arklay).jpg%2Frevision%2Flatest%3Fcb%3D20110122042123%26path-prefix%3Des&f=1&nofb=1&ipt=0703362b2bbed8f0683b700663172a57f1bd93d509899e68fd3e73c5d4473b7c&ipo=images");
 display: flex;
+flex-direction: column;
 border: solid 2px #FF0000;
 border-radius: 10px;
 margin: 3px;
@@ -232,14 +281,7 @@ max-width: 515px;
 }
 
 
-.Cadastre-se{
-background-color: red;
-border: solid 2px darkred;
-border-radius: 10px;
-margin-bottom: 5px;
-padding: 5px;
-margin-left: 5px;
-}
+
 
 .Section{
 display: flex;
@@ -254,10 +296,20 @@ margin-bottom: 5px;
 }
 
 .Section2{
-   border-bottom: solid 2px #FF0000;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+border-bottom: solid 2px #FF0000;
+}
+
+.Section2 img{
+display: flex;
+width: 165px;
+heigth: 165px;
 }
 
 .Section2 a img{
+display: flex;
 width:150px;
 heigth:170px;
 }
@@ -331,11 +383,6 @@ margin-left: 7px;
 /*------------------------------------------------------------*/
 
 
-fieldset{
-margin-top: 15px;
-border-radius: 20px; 
-}
-
 
 .Section3{
 display: flex;
@@ -366,9 +413,15 @@ min-height:120px;
 }
 
 .UmbrellaIMG2{
-border-radius: 50px;
-width:auto; 
-height:auto;
+display: flex;
+border-radius: 0px 80px 80px 0px;
+border: solid 2px red;
+max-width:300px; 
+max-height:300px;
+min-width:150px; 
+min-height:150px;
+margin-bottom: 0px;
+margin-left: 0px;
 }
 
 .Linkedin, .Instagram, .WhatsApp{
@@ -398,11 +451,6 @@ max-width: 700px;
 min-width: 200px;
 }
 
-.ResidentIMG{
-margin-top: 7px;
-margin-left: 7px;
-margin-right: 7px;
-}
 
 
 table thead th {
@@ -419,6 +467,7 @@ justify-content: space-around;
 background-color:red;
 border: 2px solid darkred;
 border-radius: 10px;
+-webkit-text-stroke: 0.2px #00FFFF;
 padding: 5px;
 color: black;
 font-size: 20px;
@@ -435,6 +484,8 @@ a{
 text-decoration: none;
 color: white;
 font-size: 20px;
+-webkit-text-stroke: 0.2px black;
+font-weight: bold;
 }
 
 img{
@@ -526,7 +577,7 @@ http://localhost:2435/storage/emulated/0/ALLFILES-EDIT-UPDATE+%2814-10-2023%29/C
 
 <span class="UmbrellaIMG"> 
 
-<img class="UmbrellaIMG2" title="UmbrellaCorporation" alt="UmbrellaCorporation Logo de Residente Evil Game)" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi46.servimg.com%2Fu%2Ff46%2F12%2F06%2F57%2F34%2Fuc_pic10.jpg&f=1&nofb=1&ipt=16170a1d85bb163e6de044b41ca47a7ad69f0b71354aa6edf29ea7a69e0c7623&ipo=images">
+<img class="UmbrellaIMG2" title="UmbrellaCorporation" alt="UmbrellaCorporation Logo de Residente Evil Game)" src="https://i.pinimg.com/564x/28/dd/6e/28dd6e799af70a78e1298a7da4241465.jpg">
 
 </span class="UmbrellaIMG"> 
 
@@ -534,14 +585,15 @@ http://localhost:2435/storage/emulated/0/ALLFILES-EDIT-UPDATE+%2814-10-2023%29/C
 
 <form onsubmit="" method="get">
 
+<span class="ContainerLogin">
 <fieldset class="Login">
-<legend><font size="5" color="white">LOGIN</font></legend>
+<legend><font size="3" color="red">LOGIN</font></legend>
 
-<label><font size="5" color="red">Nome</font></label><br>
+<label><font size="3" color="lime">Nome</font></label><br>
 <input type="text" name="name">
 <br><br>
 
-<label><font size="5" color="red">Senha</font></label><br>
+<label><font size="3" color="lime">Senha</font></label><br>
 <input type="password" name="password">
 <br><br>
 
@@ -554,6 +606,7 @@ http://localhost:2435/storage/emulated/0/ALLFILES-EDIT-UPDATE+%2814-10-2023%29/C
 <span class="Cadastre-se"> 
 <a href="#">Cadastre-se</a>
 </span>
+</span class="ContainerLogin">
 <br><br>
 
 </form>
@@ -598,9 +651,8 @@ http://localhost:2435/storage/emulated/0/ALLFILES-EDIT-UPDATE+%2814-10-2023%29/C
 
 
 <section class="Section2">
-<img title="Leon" alt="Personagem Leon de Residente Evil Game)" src="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvp0V6tELOPaWV8A0LZwqPOF81UfN0IoBthQ&usqp=CAU" 
-width="240" height="220">
+<img title="Leon" alt="Personagem Leon de Residente Evil Game)" 
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvp0V6tELOPaWV8A0LZwqPOF81UfN0IoBthQ&usqp=CAU">
 </section class="Section2">
 
 
