@@ -9,14 +9,14 @@
 
  ### Estudando as Principais Tecnologias ->
 
- *HTML5
+ * HTML5
  * CSS3
  * CAIXA FLEX
  * JAVA SCRIPT
- * PITÃO
- *KOTLIN
+ * PYTHON
+ * KOTLIN
  * JAVA
- *EM BREVE TEM MAIS....
+ * EM BREVE TEM MAIS....
 
  ***
   >#### Em busca de uma oportunidade de mudar de carreira e ingressar na área de tecnologia a qual me identifiquei e me apaixonei, a combinação de uma mente criativa e as infinitas possibilidades que a tecnologia pode alcançar podem gerar infinitas 💡ideias.
