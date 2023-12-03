@@ -26,7 +26,5 @@
 
  ### [_LINKEDIN-PROFILE_](https://www.linkedin.com/in/wagner-ribeiro-886626289?lipi=urn:li:page:d_flagship3_profile_view_base_contact_details;6T4cQSdCRoudt/2pDT1wcg==)
 
- ### [_INSTAGRAM-PROFILE_](https://www.instagram.com/wagnerinthedarkness)
-
  #### E-mail -> war.professionalfull.org@gmail.com
  #### WhatsApp -> +55 (11)98942-6811
